@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Base Font */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #333;
+    padding: 15px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Gallery Layout */
+  .project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  /* Individual Project Card */
+  .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .project p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  

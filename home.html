@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a web developer with a passion for creating beautiful and responsive websites.</p>
+
+            <!-- Call-to-Action Buttons -->
+            <button onclick="window.location.href='portfolio.html'">View Projects</button>
+            <button onclick="window.location.href='contact.html'">Contact Me</button>
+            <button onclick="window.location.href='about.html'">About</button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Name: Ankush sanjay Nirmalkar<br>
+               Contact No:<a href="tel:+919373309630">+919373309630</a>
+               <br>
+               Gmail: <a href="mailto:ankushnirmalkar72@gmail.com">ankushnirmalkar72@gmail.com</a>.<br>
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Projects</h2>
+            <div class="project-gallery">
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Build a e-commerece website for online shooping</p>
+                    
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>create portfolio web application</p>
+                </div>
+                <!-- Add more projects as necessary -->
+            </div>
+        </section>
+
+        <!-- Optional: Contact section if you plan to implement -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me through LinkedIn or GitHub below.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/ankush-nirmalkar-16435636a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <form action="https://formspree.io/f/xwpqvbvk" method="POST">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" required>
+      
+        <label for="email">Your Email</label>
+        <input id="email" type="email" name="_replyto" required>
+      
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+</body>
+</html>
+
